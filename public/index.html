@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main class="todo-container">
+
+  <!-- Header -->
+  <header>
+    <h1>My Todo List</h1>
+  </header>
+
+  <!-- Input Container -->
+  <section class="todo-input-section">
+    <form id="addForm">
+      <input type="text" id="todoInput" placeholder="Enter a new task" required>
+      <button type="submit">Add Task</button>
+    </form>
+  </section>
+
+  <!-- Todo List Container -->
+  <section class="todo-list-section">
+    <ul id="todoList">
+      <!-- Todo items will be dynamically added here -->
+      <!-- Example:
+      <li>
+        <span>Learn Node.js</span>
+        <button class="deleteBtn">Delete</button>
+      </li>
+      -->
+    </ul>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

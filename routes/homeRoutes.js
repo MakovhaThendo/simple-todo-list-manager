@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const { registerUser } = require("../controllers/authController");
-const User = require("../models/User");
+const User = require("../models/user");
 
 //  check if server is running
 router.get("/", (req, res) => {
